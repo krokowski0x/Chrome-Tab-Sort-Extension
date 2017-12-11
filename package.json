@@ -1,16 +1,16 @@
 {
   "name": "chrome-tab-fixer-extension",
   "version": "1.0.0",
-  "description": "Take on Chrome Extension, that would fix some common issues with tabs, such as:",
+  "description": "Take on Chrome Extension, that would fix some common issues with tabs.",
   "main": "TabSort.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/krokowski0x/chrome-tab-fixer-extension.git"
   },
-  "author": "",
+  "author": "krokowski0x",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/krokowski0x/chrome-tab-fixer-extension/issues"
