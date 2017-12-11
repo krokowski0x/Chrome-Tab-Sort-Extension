@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Simple tab fixer",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "folder-icon.png",
+    "default_title": "Tab Fixer"
+  },
+  "permissions": ["tabs"]
+}
