@@ -3,10 +3,10 @@
   "name": "Simple tab fixer",
   "version": "0.1",
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["src/tab-sort.js"]
   },
   "browser_action": {
-    "default_icon": "folder-icon.png",
+    "default_icon": "src/folder-icon.png",
     "default_title": "Tab Fixer"
   },
   "permissions": ["tabs"]
