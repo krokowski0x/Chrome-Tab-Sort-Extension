@@ -17,17 +17,15 @@
         domain: tab.url.replace(/^(https||http)\:\/\/(www\.||)(.*?)\..*/g,'$3'),
         isPDF: (/.pdf$/g).test(tab.url),
         id: tab.id,
-        oldIndex: tab.index
       }
       domains.push(domain);
     }
     domains.sort((prev,next) => (prev.domain > next.domain));
-    console.log(domains);
-    for (let i = 0; i < domains.length; i++) {
-      if (domains[i].isPDF) {
-        chrome.tabs.move(domains[i].id,{index: -1});
+    for (const [index, domain] of domains.entries()) {
+      if (domain.isPDF) {
+        chrome.tabs.move(domain.id,{index: -1});
       } else {
-      chrome.tabs.move(domains[i].id,{index: i});
+      chrome.tabs.move(domain.id,{index: index});
       }
     }
   }
