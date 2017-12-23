@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "Simple tab fixer",
+  "name": "Simple tab sort",
   "version": "0.1",
   "background": {
     "scripts": ["src/tab-sort.js"]
   },
   "browser_action": {
     "default_icon": "src/folder-icon.png",
-    "default_title": "Tab Fixer"
+    "default_title": "Tab Sort",
   },
   "permissions": ["tabs"]
 }

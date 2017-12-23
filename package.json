@@ -1,7 +1,7 @@
 {
-  "name": "chrome-tab-fixer-extension",
+  "name": "chrome-tab-sort-extension",
   "version": "1.0.0",
-  "description": "Take on Chrome Extension, that would fix some common issues with tabs.",
+  "description": "Take on Chrome Extension, that would sort tabs.",
   "main": "TabSort.js",
   "scripts": {
     "test": "jest"
