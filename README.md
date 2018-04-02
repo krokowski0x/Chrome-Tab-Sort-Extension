@@ -5,7 +5,7 @@ Super simple take on Chrome Extension, that sorts your chrome cards by domains' 
 ## Brief description
 
 If you often find yourself having dozens of tabs - as I do - this should help you.
-This extension sorts your tabs on click by domains' names with one little trick useful for students - it moves pdf's from different domains at the end of the rest.
+This extension sorts your tabs on click by domains' names with one little trick useful for students - it moves pdf's from different domains at the end of the tabs.
 
 ### Installation
 
@@ -16,7 +16,7 @@ chrome://extensions
 ```
 
 Then, you should enable **Developer Mode**, upload the app to your browser and you're good to go!
-Every time you find yourself having too much tabs, try clicking on the extension icon and hopefully your life would be easier.
+Now, every time you have too much tabs, try clicking on the extension icon and hopefully your life would be easier.
 
 ## Acknowledgments
 
