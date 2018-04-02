@@ -1,7 +1,7 @@
 {
-  "name": "chrome-tab-sort-extension",
+  "name": "Chrome Tab Sort-extension",
   "version": "1.0.0",
-  "description": "Take on Chrome Extension, that would sort tabs.",
+  "description": "Super simple take on Chrome Extension, that sorts your chrome cards by domains' names.",
   "main": "TabSort.js",
   "scripts": {
     "test": "jest"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/krokowski0x/chrome-tab-fixer-extension.git"
   },
-  "author": "krokowski0x",
+  "author": "Rafał Krókowski",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/krokowski0x/chrome-tab-fixer-extension/issues"
