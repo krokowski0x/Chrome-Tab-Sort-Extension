@@ -5,7 +5,7 @@ Super simple take on Chrome Extension, that sorts your chrome cards by domains' 
 ## Brief description
 
 If you often find yourself having dozens of tabs - as I do - this should help you.
-This extension sorts your tabs on click by domains' names with one little trick useful for students - it moves pdf's from different domains at the end of the tabs.
+This extension sorts your tabs (on click) by domains' names with one little trick useful for students - it moves all pdf's from different domains at the end of the tabs.
 
 ### Installation
 
@@ -20,4 +20,4 @@ Now, every time you have too much tabs, try clicking on the extension icon and h
 
 ## Acknowledgments
 
-* Shoutout to one an only [Daniel Shiffman](https://github.com/shiffman) (an actual js genius), who taught me chrome extension basics
+* Shoutout to one an only [Daniel Shiffman](https://github.com/shiffman) (an actual Java/JS genius), who taught me chrome extension basics

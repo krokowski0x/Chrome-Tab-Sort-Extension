@@ -1,5 +1,5 @@
 {
-  "name": "Chrome Tab Sort-extension",
+  "name": "Chrome Tab Sort Extension",
   "version": "1.0.0",
   "description": "Super simple take on Chrome Extension, that sorts your chrome cards by domains' names.",
   "main": "TabSort.js",
